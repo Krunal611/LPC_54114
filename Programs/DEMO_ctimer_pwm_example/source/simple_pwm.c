@@ -15,6 +15,7 @@
 #include "fsl_ctimer.h"
 
 #include "pin_mux.h"
+#include <stdbool.h>
 
 /*******************************************************************************
  * Definitions
