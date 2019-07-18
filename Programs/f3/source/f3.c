@@ -265,7 +265,7 @@ if(GPIO_PinRead(GPIO,GPIO_PORT,Right_PIN1)==0)
 
 
 
-    return 0;
+    
 	}
 
 	 // SCTIMER_StartTimer(SCT0, kSCTIMER_Counter_L);
