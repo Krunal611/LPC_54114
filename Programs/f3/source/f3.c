@@ -50,7 +50,7 @@ int main(void)
     sctimer_pwm_signal_param_t pwmParam;
     uint32_t event1,event2,event3,event4,speed=60;
     uint32_t sctimerClock;
-    uint8_t right=0,a,left=0,b,c=1;
+    uint8_t right=0,a,left=0,b,c=0;
     /* Board pin, clock, debug console init */
     /* attach 12 MHz clock to FLEXCOMM0 (debug console) */
     CLOCK_AttachClk(BOARD_DEBUG_UART_CLK_ATTACH);
